@@ -1,0 +1,2 @@
+verilog isim_temp "../../rtl/router_fsm.v"
+verilog isim_temp "/cad/cad_home/EDA/ISE12/ISE_DS/ISE/verilog/src/glbl.v"

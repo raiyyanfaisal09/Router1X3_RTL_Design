@@ -1,0 +1,11 @@
+# vsim -coverage -vopt work.router_top_gen_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vopt-143) Recognized 1 FSM in module "router_fsm".
+# Loading work.router_top_gen_tb(fast)
+# Loading work.router_top_gen(fast)
+# Loading work.router_fsm(fast)
+# Loading work.router_sync(fast)
+# Loading work.router_reg(fast)
+# Loading work.router_fifo(fast)
+#  
+quit

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen.xst" -ofn "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen.syr" 
+xst -intstyle ise -ifn "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen.xst" -ofn "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen.syr" 

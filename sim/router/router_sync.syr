@@ -1,0 +1,408 @@
+Release 12.1 - xst M.53d (lin)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: router_sync.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "router_sync.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "router_sync"
+Output Format                      : NGC
+Target Device                      : xc3s200-5-pq208
+
+---- Source Options
+Top Module Name                    : router_sync
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : router_sync.lso
+Keep Hierarchy                     : NO
+Netlist Hierarchy                  : as_optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "../../rtl/router_sync.v" in library work
+Module <router_sync> compiled
+No errors in compilation
+Analysis of file <"router_sync.prj"> succeeded.
+ 
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <router_sync> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <router_sync>.
+Module <router_sync> is correct for synthesis.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <router_sync>.
+    Related source file is "../../rtl/router_sync.v".
+    Found 1-bit 4-to-1 multiplexer for signal <fifo_full>.
+    Found 1-bit register for signal <soft_reset_0>.
+    Found 1-bit register for signal <soft_reset_1>.
+    Found 1-bit register for signal <soft_reset_2>.
+    Found 5-bit register for signal <count_0>.
+    Found 5-bit adder for signal <count_0$addsub0000> created at line 76.
+    Found 5-bit register for signal <count_1>.
+    Found 5-bit adder for signal <count_1$addsub0000> created at line 121.
+    Found 5-bit register for signal <count_2>.
+    Found 5-bit adder for signal <count_2$addsub0000> created at line 161.
+    Found 2-bit register for signal <temp>.
+    Summary:
+	inferred  20 D-type flip-flop(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred   1 Multiplexer(s).
+Unit <router_sync> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 5-bit adder                                           : 3
+# Registers                                            : 7
+ 1-bit register                                        : 3
+ 2-bit register                                        : 1
+ 5-bit register                                        : 3
+# Multiplexers                                         : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 5-bit adder                                           : 3
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+# Multiplexers                                         : 1
+ 1-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <router_sync> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block router_sync, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : router_sync.ngr
+Top Level Output File Name         : router_sync
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 25
+
+Cell Usage :
+# BELS                             : 46
+#      INV                         : 4
+#      LUT2                        : 1
+#      LUT3                        : 12
+#      LUT3_D                      : 3
+#      LUT3_L                      : 1
+#      LUT4                        : 13
+#      LUT4_D                      : 6
+#      LUT4_L                      : 5
+#      MUXF5                       : 1
+# FlipFlops/Latches                : 20
+#      FDE                         : 2
+#      FDR                         : 18
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 24
+#      IBUF                        : 14
+#      OBUF                        : 10
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s200pq208-5 
+
+ Number of Slices:                       21  out of   1920     1%  
+ Number of Slice Flip Flops:             18  out of   3840     0%  
+ Number of 4 input LUTs:                 45  out of   3840     1%  
+ Number of IOs:                          25
+ Number of bonded IOBs:                  25  out of    141    17%  
+    IOB Flip Flops:                       2
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clock                              | BUFGP                  | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 4.789ns (Maximum Frequency: 208.805MHz)
+   Minimum input arrival time before clock: 3.971ns
+   Maximum output required time after clock: 8.087ns
+   Maximum combinational path delay: 8.074ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 4.789ns (frequency: 208.805MHz)
+  Total number of paths / destination ports: 120 / 18
+-------------------------------------------------------------------------
+Delay:               4.789ns (Levels of Logic = 3)
+  Source:            count_0_1 (FF)
+  Destination:       count_0_4 (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: count_0_1 to count_0_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              5   0.626   1.078  count_0_1 (count_0_1)
+     LUT4_D:I0->O          2   0.479   0.768  count_0_mux0000<3>1_SW0 (N22)
+     LUT4_D:I3->O          1   0.479   0.704  count_0_mux0000<3>1 (N01)
+     LUT4:I3->O            1   0.479   0.000  count_0_mux0000<0>1 (count_0_mux0000<0>)
+     FDR:D                     0.176          count_0_4
+    ----------------------------------------
+    Total                      4.789ns (2.239ns logic, 2.550ns route)
+                                       (46.8% logic, 53.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock'
+  Total number of paths / destination ports: 58 / 40
+-------------------------------------------------------------------------
+Offset:              3.971ns (Levels of Logic = 2)
+  Source:            resetn (PAD)
+  Destination:       count_0_0 (FF)
+  Destination Clock: clock rising
+
+  Data Path: resetn to count_0_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.681  resetn_IBUF (resetn_IBUF)
+     INV:I->O             18   0.479   1.204  resetn_inv1_INV_0 (resetn_inv)
+     FDR:R                     0.892          count_0_0
+    ----------------------------------------
+    Total                      3.971ns (2.086ns logic, 1.885ns route)
+                                       (52.5% logic, 47.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 12 / 7
+-------------------------------------------------------------------------
+Offset:              8.087ns (Levels of Logic = 3)
+  Source:            temp_0 (FF)
+  Destination:       fifo_full (PAD)
+  Source Clock:      clock rising
+
+  Data Path: temp_0 to fifo_full
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              5   0.626   1.078  temp_0 (temp_0)
+     LUT3:I0->O            1   0.479   0.000  Mmux_fifo_full22 (Mmux_fifo_full21)
+     MUXF5:I0->O           1   0.314   0.681  Mmux_fifo_full2_f5 (fifo_full_OBUF)
+     OBUF:I->O                 4.909          fifo_full_OBUF (fifo_full)
+    ----------------------------------------
+    Total                      8.087ns (6.328ns logic, 1.759ns route)
+                                       (78.3% logic, 21.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 9 / 7
+-------------------------------------------------------------------------
+Delay:               8.074ns (Levels of Logic = 4)
+  Source:            full_2 (PAD)
+  Destination:       fifo_full (PAD)
+
+  Data Path: full_2 to fifo_full
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.715   0.976  full_2_IBUF (full_2_IBUF)
+     LUT2:I0->O            1   0.479   0.000  Mmux_fifo_full21 (Mmux_fifo_full2)
+     MUXF5:I1->O           1   0.314   0.681  Mmux_fifo_full2_f5 (fifo_full_OBUF)
+     OBUF:I->O                 4.909          fifo_full_OBUF (fifo_full)
+    ----------------------------------------
+    Total                      8.074ns (6.417ns logic, 1.657ns route)
+                                       (79.5% logic, 20.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.81 secs
+ 
+--> 
+
+
+Total memory usage is 146168 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

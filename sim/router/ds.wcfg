@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="router_top_gen_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/router_top_gen_tb/data_out_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out_1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_1[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/data_out_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out_2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_2[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/data_out_0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_0[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/vld_out_0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vld_out_0</obj_property>
+      <obj_property name="ObjectShortName">vld_out_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/vld_out_1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vld_out_1</obj_property>
+      <obj_property name="ObjectShortName">vld_out_1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/vld_out_2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vld_out_2</obj_property>
+      <obj_property name="ObjectShortName">vld_out_2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/top2/r1/pkt_parity_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pkt_parity_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pkt_parity_reg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/top2/r1/parity_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">parity_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">parity_reg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/top2/\fifomod[2].fifo /full" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/top2/r1/fifo_full_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fifo_full_reg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_full_reg[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/top2/r1/dout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/err" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">err</obj_property>
+      <obj_property name="ObjectShortName">err</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/top2/fsm1/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/busy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">busy</obj_property>
+      <obj_property name="ObjectShortName">busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/resetn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/pkt_valid" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pkt_valid</obj_property>
+      <obj_property name="ObjectShortName">pkt_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/read_enb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">read_enb[2:0]</obj_property>
+      <obj_property name="ObjectShortName">read_enb[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/router_top_gen_tb/cycle" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cycle[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

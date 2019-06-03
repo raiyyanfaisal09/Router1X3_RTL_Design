@@ -1,0 +1,146 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim
+T_opt
+V@dbkS>o4WEEglB98kIlUK0
+04 17 4 work router_top_gen_tb fast 0
+Z1 =1-00270e326243-55f2bbb1-7611b-bcc
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 n@_opt
+Z4 OE;O;10.0b;49
+Z5 d/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim
+vrouter_fifo
+Z6 IXT==zhi]MmX2W9=Odf0^o3
+Z7 V2Z4;gH3cE1iT=[IzZngDO1
+R5
+Z8 w1440847410
+Z9 8../rtl/router_fifo.v
+Z10 F../rtl/router_fifo.v
+L0 1
+Z11 OE;L;10.0b;49
+r1
+31
+Z12 !s108 1441971085.971675
+Z13 !s107 ../tb/router_top_gen_tb.v|../rtl/router_top_gen.v|../rtl/router_top.v|../rtl/router_sync.v|../rtl/router_reg.v|../rtl/router_fsm.v|../rtl/router_fifo.v|
+Z14 !s90 -work|work|-coveropt|3|+cover|+acc|../rtl/router_fifo.v|../rtl/router_fsm.v|../rtl/router_reg.v|../rtl/router_sync.v|../rtl/router_top.v|../rtl/router_top_gen.v|../tb/router_top_gen_tb.v|+incdir+../tb|
+Z15 !s102 -coveropt 3 +cover
+Z16 o-work work -coveropt 3 +cover +acc -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -nocovercells
+Z17 !s92 -work work -coveropt 3 +cover +acc +incdir+../tb -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -nocovercells
+Z18 !s100 15hc5fbmQnjT2h8IU5KQK2
+!s85 0
+vrouter_fsm
+Z19 IJFh1[g5UkKBlhAg?ioB3`2
+Z20 VW;;MiTX]kjlNz]W2cN<lH3
+R5
+Z21 w1441963437
+Z22 8../rtl/router_fsm.v
+Z23 F../rtl/router_fsm.v
+L0 1
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+R17
+Z24 !s100 Ge7h8[8@67H[F6]f81_ZI0
+!s85 0
+vrouter_reg
+Z25 IGLU>;A71ZR93a=z:JS1I92
+Z26 Vl5T>;8aUMkeV[NS?Ez24=3
+R5
+Z27 w1441892800
+Z28 8../rtl/router_reg.v
+Z29 F../rtl/router_reg.v
+L0 1
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+R17
+Z30 !s100 kd09BX83?>H0gma;R`3Qk0
+!s85 0
+vrouter_sync
+Z31 I<OW:ozN3EaKkKKnA1OdAk3
+Z32 VA;AODC0LzohBc<D<>ZFG70
+R5
+Z33 w1440164728
+Z34 8../rtl/router_sync.v
+Z35 F../rtl/router_sync.v
+L0 1
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+R17
+Z36 !s100 MSBfUDQC5JZKZ`NeXaD6H1
+!s85 0
+vrouter_top
+Z37 I:;@7lfDa3=2aOLe]4i]?k0
+Z38 V@h=9aSz6n_;cSfQh@F`Z51
+R5
+Z39 w1441625925
+Z40 8../rtl/router_top.v
+Z41 F../rtl/router_top.v
+L0 1
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+R17
+Z42 !s100 dnZdS9NFgSHeQ2V55ZjXL1
+!s85 0
+vrouter_top_gen
+Z43 INHG[]3nY25@32XmmVV2jG1
+Z44 VYoanT1jbePcmfKJ2BzeLE1
+R5
+Z45 w1441704045
+Z46 8../rtl/router_top_gen.v
+Z47 F../rtl/router_top_gen.v
+L0 1
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+R17
+Z48 !s100 lH9gfF`Fm<FNVJAm?n[jH0
+!s85 0
+vrouter_top_gen_tb
+Z49 IlRIz`7nfiehdd1SfA18Q=3
+Z50 V>6[SlIRCTY[MF4CJURC0j0
+R5
+Z51 w1441970809
+Z52 8../tb/router_top_gen_tb.v
+Z53 F../tb/router_top_gen_tb.v
+L0 1
+R11
+r1
+31
+R12
+R13
+R14
+R15
+R16
+R17
+Z54 !s100 K`[H`b2?Cl43:0d:?6R=E2
+!s85 0

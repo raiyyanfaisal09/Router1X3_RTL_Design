@@ -1,0 +1,29 @@
+Command line:
+   router_top_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  39466
+
+Sat Aug 29 18:00:19 2015
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 114.786 Meg
+
+ Total Signals          : 122
+ Total Nets             : 84
+ Total Signal Drivers   : 34
+ Total Blocks           : 8
+ Total Primitive Blocks : 7
+ Total Processes        : 62
+ Total Traceable Variables  : 76
+ Total Scalar Nets and Variables : 1156
+Total Line Count : 385
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 123.179 Meg
+
+Sat Aug 29 18:00:31 2015
+

@@ -1,0 +1,30 @@
+Running: /cad/cad_home/EDA/ISE12/ISE_DS/ISE/bin/lin/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen_tb_isim_beh.exe -prj /student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen_tb_beh.prj work.router_top_gen_tb work.glbl 
+ISim M.53d (signature 0x2f7eec00)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing Verilog file "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/../../rtl/router_sync.v" into library work
+Parsing Verilog file "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/../../rtl/router_reg.v" into library work
+Parsing Verilog file "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/../../rtl/router_fsm.v" into library work
+Parsing Verilog file "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/../../rtl/router_fifo.v" into library work
+Parsing Verilog file "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/../../rtl/router_top_gen.v" into library work
+Parsing Verilog file "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/../../tb/router_top_gen_tb.v" into library work
+Parsing Verilog file "/cad/cad_home/EDA/ISE12/ISE_DS/ISE/verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 26884 KB
+Fuse CPU Usage: 130 ms
+Compiling module router_fsm
+Compiling module router_sync
+Compiling module router_reg
+Compiling module router_fifo
+Compiling module router_top_gen
+Compiling module router_top_gen_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 4 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable /student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen_tb_isim_beh.exe
+Fuse Memory Usage: 62908 KB
+Fuse CPU Usage: 180 ms
+GCC CPU Usage: 1200 ms

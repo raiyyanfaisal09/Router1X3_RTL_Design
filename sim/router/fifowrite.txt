@@ -1,0 +1,40 @@
+                   0clk=1,dut.mem=00000000000000000000000000000000,reset=1,read_n=1,write_n=1,data_in=  x,data_out=  z,full=0,half=0,empty=1
+                   5clk=0,dut.mem=00000000000000000000000000000000,reset=0,read_n=1,write_n=1,data_in=  x,data_out=  z,full=0,half=0,empty=1
+                  10clk=1,dut.mem=00000000000000000000000000000000,reset=0,read_n=1,write_n=1,data_in=  x,data_out=  z,full=0,half=0,empty=1
+                  15clk=0,dut.mem=00000000000000000000000000000000,reset=0,read_n=1,write_n=0,data_in= 36,data_out=  z,full=0,half=0,empty=1
+                  20clk=1,dut.mem=00000000000000000000000000000024,reset=0,read_n=1,write_n=0,data_in= 36,data_out=  z,full=0,half=0,empty=0
+                  25clk=0,dut.mem=00000000000000000000000000000024,reset=0,read_n=1,write_n=0,data_in=129,data_out=  z,full=0,half=0,empty=0
+                  30clk=1,dut.mem=00000000000000000000000000008124,reset=0,read_n=1,write_n=0,data_in=129,data_out=  z,full=0,half=0,empty=0
+                  35clk=0,dut.mem=00000000000000000000000000008124,reset=0,read_n=1,write_n=0,data_in=  9,data_out=  z,full=0,half=0,empty=0
+                  40clk=1,dut.mem=00000000000000000000000000098124,reset=0,read_n=1,write_n=0,data_in=  9,data_out=  z,full=0,half=0,empty=0
+                  45clk=0,dut.mem=00000000000000000000000000098124,reset=0,read_n=1,write_n=0,data_in= 99,data_out=  z,full=0,half=0,empty=0
+                  50clk=1,dut.mem=00000000000000000000000063098124,reset=0,read_n=1,write_n=0,data_in= 99,data_out=  z,full=0,half=0,empty=0
+                  55clk=0,dut.mem=00000000000000000000000063098124,reset=0,read_n=1,write_n=0,data_in= 13,data_out=  z,full=0,half=0,empty=0
+                  60clk=1,dut.mem=00000000000000000000000d63098124,reset=0,read_n=1,write_n=0,data_in= 13,data_out=  z,full=0,half=0,empty=0
+                  65clk=0,dut.mem=00000000000000000000000d63098124,reset=0,read_n=1,write_n=0,data_in=141,data_out=  z,full=0,half=0,empty=0
+                  70clk=1,dut.mem=000000000000000000008d0d63098124,reset=0,read_n=1,write_n=0,data_in=141,data_out=  z,full=0,half=0,empty=0
+                  75clk=0,dut.mem=000000000000000000008d0d63098124,reset=0,read_n=1,write_n=0,data_in=101,data_out=  z,full=0,half=0,empty=0
+                  80clk=1,dut.mem=000000000000000000658d0d63098124,reset=0,read_n=1,write_n=0,data_in=101,data_out=  z,full=0,half=0,empty=0
+                  85clk=0,dut.mem=000000000000000000658d0d63098124,reset=0,read_n=1,write_n=0,data_in= 18,data_out=  z,full=0,half=0,empty=0
+                  90clk=1,dut.mem=000000000000000012658d0d63098124,reset=0,read_n=1,write_n=0,data_in= 18,data_out=  z,full=0,half=0,empty=0
+                  95clk=0,dut.mem=000000000000000012658d0d63098124,reset=0,read_n=1,write_n=0,data_in=  1,data_out=  z,full=0,half=0,empty=0
+                 100clk=1,dut.mem=000000000000000112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=  1,data_out=  z,full=0,half=0,empty=0
+                 105clk=0,dut.mem=000000000000000112658d0d63098124,reset=0,read_n=1,write_n=0,data_in= 13,data_out=  z,full=0,half=0,empty=0
+                 110clk=1,dut.mem=0000000000000d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in= 13,data_out=  z,full=0,half=0,empty=0
+                 115clk=0,dut.mem=0000000000000d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=118,data_out=  z,full=0,half=0,empty=0
+                 120clk=1,dut.mem=0000000000760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=118,data_out=  z,full=0,half=0,empty=0
+                 125clk=0,dut.mem=0000000000760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in= 61,data_out=  z,full=0,half=0,empty=0
+                 130clk=1,dut.mem=000000003d760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in= 61,data_out=  z,full=0,half=0,empty=0
+                 135clk=0,dut.mem=000000003d760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=237,data_out=  z,full=0,half=0,empty=0
+                 140clk=1,dut.mem=000000ed3d760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=237,data_out=  z,full=0,half=0,empty=0
+                 145clk=0,dut.mem=000000ed3d760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=140,data_out=  z,full=0,half=0,empty=0
+                 150clk=1,dut.mem=00008ced3d760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=140,data_out=  z,full=0,half=0,empty=0
+                 155clk=0,dut.mem=00008ced3d760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=249,data_out=  z,full=0,half=0,empty=0
+                 160clk=1,dut.mem=00f98ced3d760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=249,data_out=  z,full=0,half=0,empty=0
+                 165clk=0,dut.mem=00f98ced3d760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=198,data_out=  z,full=0,half=0,empty=0
+                 170clk=1,dut.mem=c6f98ced3d760d0112658d0d63098124,reset=0,read_n=1,write_n=0,data_in=198,data_out=  z,full=0,half=1,empty=0
+                 175clk=0,dut.mem=c6f98ced3d760d0112658d0d63098124,reset=0,read_n=0,write_n=1,data_in=198,data_out=  z,full=0,half=1,empty=0
+                 180clk=1,dut.mem=c6f98ced3d760d0112658d0d63098124,reset=0,read_n=0,write_n=1,data_in=198,data_out=  z,full=0,half=0,empty=0
+                 185clk=0,dut.mem=c6f98ced3d760d0112658d0d63098124,reset=0,read_n=0,write_n=1,data_in=198,data_out=  z,full=0,half=0,empty=0
+                 190clk=1,dut.mem=c6f98ced3d760d0112658d0d63098124,reset=0,read_n=0,write_n=1,data_in=198,data_out=  z,full=1,half=0,empty=0
+                 195clk=0,dut.mem=c6f98ced3d760d0112658d0d63098124,reset=0,read_n=0,write_n=1,data_in=198,data_out=  z,full=1,half=0,empty=0

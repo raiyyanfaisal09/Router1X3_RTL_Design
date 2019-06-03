@@ -1,0 +1,42 @@
+ISim log file
+Running: /student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen_tb_isim_beh.exe -gui -tclbatch isim.cmd -wdb /student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/sim/router/router_top_gen_tb_isim_beh.wdb 
+ISim M.53d (signature 0x2f7eec00)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 425 ns : File "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/tb/router_top_gen_tb.v" Line 24
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 425 ns : File "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/tb/router_top_gen_tb.v" Line 24
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 425 ns : File "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/tb/router_top_gen_tb.v" Line 24
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 425 ns : File "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/tb/router_top_gen_tb.v" Line 24
+# run all
+Stopped at time : 4305845 ns : File "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/rtl/router_sync.v" Line 98
+# restart
+# run 1.00us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 425 ns : File "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/tb/router_top_gen_tb.v" Line 24
+# restart
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 425 ns : File "/student/student2/B50_VLSI_RN/VLSI_RN/Verilog_labs/Router1X3/tb/router_top_gen_tb.v" Line 24
+# exit 0

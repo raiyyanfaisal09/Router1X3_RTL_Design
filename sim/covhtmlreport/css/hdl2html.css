@@ -1,0 +1,42 @@
+#hdl2html {
+  color:black; background:white;
+}
+#hdl2html span.comment {
+  color:green;
+}
+#hdl2html span.literal {
+  color:red;
+}
+#hdl2html span.compile {
+  color:purple;
+}
+#hdl2html span.keyword {
+  color:blue;
+}
+#hdl2html span.keytype {
+  color:maroon;
+}
+#hdl2html span.keyattr {
+  color:red;
+}
+#hdl2html span.keyvalu {
+  color:teal;
+}
+#hdl2html span.linked {
+  color:red;
+}
+
+/*** this is the old ucdb2html stuff that should eventually be deleted */
+
+BODY { 	   /* main_body */
+  background:#FFFFFF;
+  color:#000000; 
+}
+
+/* verilog/vhdl language elements */
+SPAN.C       { color:#0000FF; }				/* comment */
+SPAN.K       { color:#CC3300; }				/* keyword */
+SPAN.S       { color:#009900; }				/* string  */
+SPAN.T       { color:#660033; }				/* type  */
+SPAN.A       { color:RED; }                             /* attribute */
+SPAN.D       { color:#AA0026; font-weight:bold; }       /* Compiler Directives */

@@ -1,0 +1,3 @@
+verilog work "../../rtl/router_fifo.v"
+verilog work "../../tb/router_fifo_tb.v"
+verilog work "/cad/cad_home/EDA/ISE12/ISE_DS/ISE/verilog/src/glbl.v"

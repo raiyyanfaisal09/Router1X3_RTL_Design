@@ -1,0 +1,7 @@
+verilog work "../../rtl/router_sync.v"
+verilog work "../../rtl/router_reg.v"
+verilog work "../../rtl/router_fsm.v"
+verilog work "../../rtl/router_fifo.v"
+verilog work "../../rtl/router_top_gen.v"
+verilog work "../../tb/router_top_gen_tb.v"
+verilog work "/cad/cad_home/EDA/ISE12/ISE_DS/ISE/verilog/src/glbl.v"

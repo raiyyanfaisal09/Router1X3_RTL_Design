@@ -1,0 +1,44 @@
+.header {
+	margin:           0;
+	background-color: #cccccc;
+}
+
+.mtitree {
+	white-space:      nowrap;
+	font-family:      sans-serif;
+}
+
+.mtitree img {
+	border-width:     0;
+	vertical-align:   middle;
+}
+
+.mtitree a {
+	color:            black;
+	background-color: white;
+	border-style:     none;
+	text-decoration:  none;
+}
+
+.mtitree a:hover {
+	text-decoration:  underline;
+}
+
+.mtitree a.node,
+.mtitree a.nodeSel {
+	white-space:      nowrap;
+}
+
+.mtitree a.nodeSel {
+	color:            white;
+	background-color: blue;
+}
+
+.mtitree .darknode {
+	white-space:      nowrap;
+	color:            gray;
+}
+
+.mtitree .clip {
+	overflow:         hidden;
+}
